@@ -1,0 +1,38 @@
+.questao2Container {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  color: #333;
+  font-size: 1.8rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  min-height: 60vh;
+}
+
+.mensagem {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  background-color: white;
+  min-width: 200px;
+}

@@ -1,0 +1,30 @@
+.AlterarTema {
+  padding: 40px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  transition: all 0.3s ease;
+}
+
+.claro {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.escuro {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+.AlterarTema p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.header h1 {
+  color: #333;
+  font-size: 1.8rem;
+}
